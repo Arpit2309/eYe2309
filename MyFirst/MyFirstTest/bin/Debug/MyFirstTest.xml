@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyFirstTest
+</name>
+</assembly>
+<members>
+<member name="P:MyFirstTest._DefaultTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:MyFirstTest._DefaultTest.Page_LoadTest">
+	<summary>
+A test for Page_Load
+</summary>
+</member><member name="T:MyFirstTest._DefaultTest">
+	<summary>
+This is a test class for _DefaultTest and is intended
+to contain all _DefaultTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

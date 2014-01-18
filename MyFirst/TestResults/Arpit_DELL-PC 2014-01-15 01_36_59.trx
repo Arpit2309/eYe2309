@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5604f961-db15-49c3-845a-8c005b99350b" name="Arpit@DELL-PC 2014-01-15 01:36:59" runUser="DELL-PC\Arpit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cde3590d-c655-4ccc-b957-b7d9cf04ed4b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Arpit_DELL-PC 2014-01-15 01_36_59">
+      <DeploymentItem filename="C:\Users\Arpit\Documents\Visual Studio 2010\Projects\MyFirst\MyFirst\bin\MyFirst.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-15T01:36:59.5931581+05:30" queuing="2014-01-15T01:37:00.5097721+05:30" start="2014-01-15T01:37:00.7649405+05:30" finish="2014-01-15T01:37:29.0718282+05:30" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DELL-PC" outcome="Warning" timestamp="2014-01-15T01:37:00.0274482+05:30">
+        <Text>Deployment is currently disabled. The deployment item 'MyFirst.dll' on test 'MyFirstTest._DefaultTest.Page_LoadTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Page_LoadTest" storage="c:\users\arpit\documents\visual studio 2010\projects\myfirst\myfirsttest\bin\debug\myfirsttest.dll" id="7171ca37-ffe2-0763-89af-b8244c9152d1">
+      <DeploymentItems>
+        <DeploymentItem filename="MyFirst.dll" />
+      </DeploymentItems>
+      <Execution id="0460df2d-24f1-45cc-ac70-e1b7cb484de9" />
+      <TestMethod codeBase="C:/Users/Arpit/Documents/Visual Studio 2010/Projects/MyFirst/MyFirstTest/bin/Debug/MyFirstTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyFirstTest._DefaultTest, MyFirstTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Page_LoadTest" />
+      <AspNet webSiteUrl="http://localhost:1057/">
+        <Host pathToWebApp="C:\Users\Arpit\Documents\Visual Studio 2010\Projects\MyFirst\MyFirst" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7171ca37-ffe2-0763-89af-b8244c9152d1" executionId="0460df2d-24f1-45cc-ac70-e1b7cb484de9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0460df2d-24f1-45cc-ac70-e1b7cb484de9" testId="7171ca37-ffe2-0763-89af-b8244c9152d1" testName="Page_LoadTest" computerName="DELL-PC" duration="00:00:00.7017441" startTime="2014-01-15T01:37:00.8620046+05:30" endTime="2014-01-15T01:37:28.8376539+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0460df2d-24f1-45cc-ac70-e1b7cb484de9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at MyFirstTest._DefaultTest.Page_LoadTest() in C:\Users\Arpit\Documents\Visual Studio 2010\Projects\MyFirst\MyFirstTest\_DefaultTest.vb:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
